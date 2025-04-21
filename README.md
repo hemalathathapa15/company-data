@@ -49,6 +49,29 @@ python scrape.py
 **Output:**
 `company_details_output.csv` 
 
+## Challenges Faced
+
+- Some companies do not have an official website listed, which prevents the scraper from accessing any meaningful data.
+
+- A few websites employ anti-scraping mechanisms (such as bot protection, CAPTCHA, or firewall restrictions), making it difficult or impossible to extract content using automated tools like Playwright.
+
+- The Gemini API used for data extraction has quota limits. If too many requests are made in a short time, the service may temporarily block access, affecting the workflow.
+
+- Most of the third-party APIs available are asking for paid versions to get financial data of companies.
+
+## Third-Party APIs tried
+
+- Alpha Vantage
+
+- OpenCorporates
+
+
+
+
+
+
+
+
 
 
 
